@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+
+}
+
+p {
+    font-size: 25px;
+}
+
+#Main {
+    background-color: chartreuse;
+}
+
+ul{
+    list-style-type:lower-greek
+}
+
+li {
+    color: brown;
+}
+
+div {
+    background-color: rgb(60, 110, 204);
+}
+
+.highlighted {
+    background-color: darkkhaki;
+    
+}
