@@ -1,0 +1,50 @@
+.navigation {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightgray;
+
+}
+
+.navigation span {
+    margin-right: 20px;
+    font-weight: bold;
+}
+.navigation a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.section1 {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.section1 p {
+
+    font-style: italic;
+}
+
+.section2 {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.section3 {
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightgray;
+}

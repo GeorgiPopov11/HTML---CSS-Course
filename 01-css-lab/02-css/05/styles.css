@@ -1,0 +1,29 @@
+.section > p {
+    color: blue;
+
+}
+
+.section > .article1 > p {
+    color: red;
+}
+
+.section > .highlightedArticle > p {
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: rgb(197, 223, 223);
+}
+
+.firstList > li {
+    list-style: circle;
+    color: blue;
+    font-size: bold;
+}
+
+.secondList > li {
+    list-style: decimal;
+    color: red;
+    font: 900;
+}

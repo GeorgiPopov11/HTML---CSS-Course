@@ -1,0 +1,21 @@
+.Visible {
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    
+    overflow: visible;
+}
+
+.Hidden {
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.Scroll {
+    border: 2px solid black;
+    padding: 20px;
+    overflow: scroll;
+    width: 300px;
+}

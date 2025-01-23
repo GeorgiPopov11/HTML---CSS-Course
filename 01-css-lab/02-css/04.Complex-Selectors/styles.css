@@ -1,0 +1,25 @@
+.firstLi {
+    font-weight: bold;
+}
+
+.secondLi {
+    font-weight: 400;
+}
+
+.thirdLi {
+    font-style: italic;
+}
+
+.header {
+
+}
+
+.service1 {
+    background-color: aqua;
+}
+
+.arrows {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
