@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    font: 14px/1.5 Verdana, sans-serif;
+}
+
+body {
+    font: inherit;
+    padding: 2em;
+    background-color: #c5c4c4;
+}
+
+.card {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 20);
+    border-radius: 0.5em;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
+.card span, .card img {
+    display: block;
+}
+
+.card .media img {
+    width: 100%;
+    height: auto;
+}
+
+.card .main {
+    padding: 1.5em 2em;
+}
+
+.card .footer {
+    padding: 0.5em 2em 1.5em 2em;
+
+}
+
+.card .footer span:nth-child(1) {
+    font-weight: bold;
+}
+
+.card .footer span:nth-child(2) {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 0.8em;
+    font-style: italic;
+}

@@ -1,0 +1,43 @@
+
+section {
+    margin: 40px auto;
+    width: 500px;
+    
+}
+
+p {
+
+    position: absolute;
+    top: 0.1em;
+    left: 0.7em;
+    margin: 0;
+    
+}
+
+div {
+    border: 1px dashed black;
+    padding: 2em;
+    position: relative;
+}
+
+
+.margin {
+    
+    background-color: salmon;
+}
+
+.border {
+    
+    background-color: rgb(252, 194, 194)
+}
+
+.padding {
+    
+    background-color: lightgreen;
+}
+
+.content {
+    text-align: center;
+    background-color: lightblue;
+}
+
