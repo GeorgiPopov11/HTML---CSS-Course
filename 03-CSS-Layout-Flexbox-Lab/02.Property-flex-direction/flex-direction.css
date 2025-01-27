@@ -1,0 +1,28 @@
+.container-default, 
+.container-reverse, 
+.container-column,
+.container-column-reverse {
+
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+    display: flex;
+}
+
+.item {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.container-reverse {
+    flex-direction: row-reverse;
+}
+
+.container-column {
+    flex-direction: column;
+}
+
+.container-column-reverse {
+    flex-direction: column-reverse;
+}

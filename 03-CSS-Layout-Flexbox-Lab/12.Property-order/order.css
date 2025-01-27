@@ -1,0 +1,38 @@
+.default,
+.custom {
+    border: 2px solid blue;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.item {
+    border: 2px solid black;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.custom :nth-child(1) {
+    order: 5;
+}
+
+.custom :nth-child(2) {
+    order: 3;
+}
+
+.custom :nth-child(3) {
+    order: 1;
+}
+
+.custom :nth-child(4) {
+    order: 6;
+}
+
+.custom :nth-child(5) {
+    order: 2;
+}
+
+.custom :nth-child(6) {
+    order: 4;
+}

@@ -1,0 +1,40 @@
+    .default, 
+    .center,
+    .flex-end,
+    .space-between,
+    .space-around {
+
+        border: 2px solid blue;
+        padding: 20px;
+        width: 400px;
+        display: flex;
+        height: 200px;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        padding: 20px;
+        border: 2px solid black;
+        background-color: lightgray;
+    }
+
+    .default {
+        align-content: flex-start;
+    }
+
+    .center {
+        align-content: center;
+    }
+
+    .flex-end {
+        align-content: flex-end;
+    }
+
+    .space-between {
+        align-content: space-between;
+    }
+
+    .space-around {
+        align-content: space-around;
+    }
+

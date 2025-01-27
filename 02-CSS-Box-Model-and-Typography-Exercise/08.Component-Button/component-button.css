@@ -1,0 +1,52 @@
+.container {
+    padding: 1em 20px;
+    display: flex;
+    gap: 10px;
+    
+
+}
+
+button {
+    padding: 20px;
+    border-radius: 10%;
+    font-size: 1em;
+    border: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+h1 {
+    margin-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.first {
+    background-color: lightgray;
+}
+
+.second {
+    background-color: orange;
+}
+
+.third {
+    background-color: lightyellow;
+}
+
+.fourth {
+    background-color: white;
+}
+
+.edit {
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
