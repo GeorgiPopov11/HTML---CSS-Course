@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 3px solid green;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    gap: 1em;
+}
+
+body > * {
+    border: 2px solid blue;
+    padding: 2em; 
+}
+
+main {
+    flex-grow: 1;
+}
+
+

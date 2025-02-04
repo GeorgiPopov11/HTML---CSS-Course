@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0, 0.2);
+    border-radius: 0.2em;
+    padding: 5px;
+    margin: 3em 2em;
+    display: flex;
+}
+
+p {
+    border: 1px solid darkgray;
+    padding: 2em;
+}
+
+header {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.days {
+    display: flex;
+}
+
+.days > p {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.reminders, .special-dates {
+    flex-grow: 1;
+    padding: 4em;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
