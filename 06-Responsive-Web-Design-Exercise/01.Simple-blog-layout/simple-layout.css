@@ -1,0 +1,39 @@
+* {  
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+    padding: 2em;
+    margin: 2em 4em;
+    
+}
+
+header, main, aside, footer {
+    padding: 2em;
+    border: 1px solid gray;
+    margin: 1em;
+    border-radius: 0.3em;
+}
+
+
+@media (min-width: 800px) {
+    section {
+        display: flex;
+    }
+
+    main {
+        flex-grow: 2;
+    }
+
+    aside {
+        flex-grow: 1;
+    }
+}
