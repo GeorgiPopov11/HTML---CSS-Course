@@ -1,0 +1,19 @@
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, select, option {
+    font: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+h2 {
+    padding-top: 2em;
+}
+
+p {
+    margin-bottom: 1em;
+}
