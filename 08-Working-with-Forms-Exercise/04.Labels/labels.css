@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100dvh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    font-family: Lato, sans-serif;
+}
+
+.container {
+    background-color: white;
+    padding: 2em;
+    border: 1px solid gray;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.2);
+
+}
+
+label {
+    display: block;
+    margin-top: 5em;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    margin-top: 3em;
+    border: none;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.note {
+    margin-top: 0.5em;
+    color: gray;
+    font-style: italic;
+}
+
+
+
